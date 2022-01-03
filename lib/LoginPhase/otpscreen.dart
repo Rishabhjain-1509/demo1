@@ -61,7 +61,7 @@ class _OTPScreenState extends State<OTPScreen> {
                               focusColor: Colors.grey,
                               hoverColor: Colors.grey,
                               prefixIcon: const Icon(
-                                Icons.ac_unit,
+                                Icons.code,
                                 color: Colors.grey,
                               ),
                               focusedBorder: bord,

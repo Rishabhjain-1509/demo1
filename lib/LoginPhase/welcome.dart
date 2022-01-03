@@ -29,9 +29,9 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             //Image on the first
-            // Image.asset(
-            //   'assets/images/Login1.png',
-            // ),
+            Image.asset(
+              'assets/images/Login1.png',
+            ),
             const SizedBox(
               height: 50.0,
             ),

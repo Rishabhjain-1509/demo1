@@ -47,16 +47,13 @@ class _HomeScreenState extends State<HomeScreen> {
         mutations: const {RemoveProductToCart, AddProductToCart},
         builder: (context, store, status) {
           return FloatingActionButton(
-            foregroundColor: maincolor,
-            focusColor: maincolor,
-            splashColor: maincolor,
+            backgroundColor: maincolor,
             onPressed: () => Navigator.push(context, MaterialPageRoute(
               builder: (context) {
                 return CartScreen();
               },
             )),
-            child: const Icon(Icons.home, color: maincolor),
-            backgroundColor: context.theme.buttonColor,
+            child: const Icon(Icons.home, color: white),
           ).badge(
               color: Colors.red,
               size: 24,
@@ -98,7 +95,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                           black, FontWeight.w500),
                                     )
                                   ],
-                                )
+                                ),
                               ]),
                         ),
                       );
