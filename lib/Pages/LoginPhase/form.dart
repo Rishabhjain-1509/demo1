@@ -1,13 +1,13 @@
 //Created By Rishabh Jain.
-//Created On Jan 3, 2021.
+//Created On Jan 3, 2022.
 
+import 'package:demo/Pages/Home/home.dart';
+import 'package:demo/Services/Functions/functions_extra.dart';
+import 'package:demo/Services/Helper/common.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:demo/Constant/constant.dart';
-import 'package:demo/Functions/functions_extra.dart';
-import 'package:demo/Helper/common.dart';
-import 'package:demo/Home/home.dart';
 import 'package:demo/Models/user.dart';
 
 // ignore: must_be_immutable

@@ -1,6 +1,9 @@
+//Created By Rishabh Jain.
+//Created On Jan 3, 2022
+
+import 'package:demo/Services/core/store.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
-import 'package:demo/core/store.dart';
 import 'package:demo/Constant/constant.dart';
 
 class CartScreen extends StatefulWidget {

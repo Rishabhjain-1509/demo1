@@ -1,8 +1,11 @@
+//Created By Rishabh Jain.
+//Created On Jan 3, 2022
+
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:demo/Functions/functions_extra.dart';
 import 'package:demo/Models/user.dart';
-import 'package:demo/core/store.dart';
-import 'package:demo/shared/shared.dart';
+import 'package:demo/Services/Functions/functions_extra.dart';
+import 'package:demo/Services/core/store.dart';
+import 'package:demo/Services/shared/shared.dart';
 
 class CommonApi {
   final CollectionReference userCollection =

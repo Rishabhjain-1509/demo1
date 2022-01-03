@@ -1,12 +1,13 @@
+//Created By Rishabh Jain.
+//Created On Jan 3, 2022
+
 import 'package:demo/Constant/constant.dart';
-import 'package:demo/main.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:demo/Pages/Cart/cart.dart';
+import 'package:demo/Services/Api/product.dart';
+import 'package:demo/Services/core/store.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
-import 'package:demo/Api/product.dart';
-import 'package:demo/Cart/cart.dart';
 import 'package:demo/Models/product.dart';
-import 'package:demo/core/store.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -33,7 +34,6 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   // AddProductToCart(products[index]);
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

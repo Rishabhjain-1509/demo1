@@ -1,8 +1,11 @@
+//Created By Rishabh Jain.
+//Created On Jan 3, 2022
+
+import 'package:demo/Services/core/store.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
-import 'package:demo/LoginPhase/welcome.dart';
-import 'package:demo/core/store.dart';
+import 'Pages/LoginPhase/welcome.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

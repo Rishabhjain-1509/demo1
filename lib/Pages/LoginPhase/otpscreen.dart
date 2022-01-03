@@ -1,12 +1,15 @@
+//Created By Rishabh Jain.
+//Created On Jan 3, 2022
+
 import 'dart:async';
+import 'package:demo/Pages/Home/home.dart';
+import 'package:demo/Pages/LoginPhase/form.dart';
+import 'package:demo/Services/Functions/functions_extra.dart';
+import 'package:demo/Services/Helper/common.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sn_progress_dialog/progress_dialog.dart';
 import 'package:demo/Constant/constant.dart';
-import 'package:demo/Functions/functions_extra.dart';
-import 'package:demo/Helper/common.dart';
-import 'package:demo/Home/home.dart';
-import 'package:demo/LoginPhase/form.dart';
 
 class OTPScreen extends StatefulWidget {
   final String phone;

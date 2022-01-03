@@ -1,8 +1,11 @@
+//Created By Rishabh Jain.
+//Created On Jan 3, 2022
+
+import 'package:demo/Pages/LoginPhase/otpscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:demo/Constant/constant.dart';
-import 'package:demo/LoginPhase/otpscreen.dart';
 
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
